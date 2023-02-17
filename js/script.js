@@ -6,7 +6,7 @@ let prevActiveButton;
 
 document.addEventListener('keydown', function(event) {
   const pressedBtn = event.key.toLowerCase();
-  console.log(pressedBtn);
+  // console.log(pressedBtn);
 
   buttons.forEach(function(button) {
     const buttonLetter = button.textContent.toLowerCase();
